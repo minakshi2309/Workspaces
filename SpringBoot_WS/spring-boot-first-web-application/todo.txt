@@ -1,0 +1,31 @@
+Spring Boot Starter Parent
+Spring Boot Starter Web
+@SpringBootApplication
+@ComponentScan
+Auto Configuration
+
+
+@Repository(storing/retrieving the data to the database etc.)  
+@Component, @Service, 
+@Autowired
+
+/login => "Hello World"
+/login => LoginController
+Developer Tools: restarts the server automatically if something changes in the code/project
+@Controller, @RequestMapping, @ResponseBody(used in case we don't want spring to find for a view for a method)
+
+search for a view like html/jsp (View Resolver)
+src/main/webapp/WEB-INF/jsp/login.jsp 
+@RequestParam and ModelMap and method=RequesMethod.GET 
+
+Implementing server side validation
+--------------------------------------
+modelAttribute (formerly known as commandName) or Form Backing Bean
+Add Validation
+Use Validation on Controller
+Display errors in view
+
+modelAttribute
+-----------------
+controller
+view - spring form tags

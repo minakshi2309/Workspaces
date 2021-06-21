@@ -1,0 +1,18 @@
+logging:
+  level:
+    org.springframweork: INFO
+#    org.springframework.web.servlet: DEBUG
+
+# in yaml properties file we can define the dynamic configuration as below:
+
+#dev:
+#basic:
+#  value: true
+#  message: Welcome to in28minutes
+#  number: 200
+  
+#prod:
+#basic:
+#  value: true
+#  message: Welcome to in28minutes
+#  number: 100
