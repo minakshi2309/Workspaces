@@ -1,0 +1,18 @@
+<!-- Interpolation -->
+<!-- Username: <input type="text" name="username" value="{{username}}">
+Password: <input type="password" name="password" value="{{password}}"> -->
+<h1>Login!</h1>
+<div class="container">
+    <div class="alert alert-warning" *ngIf="invalidCredentials">{{errorMessage}}</div>
+    <div>
+        <!-- two way data binding -->
+        Username: <input type="text" name="username" [(ngModel)]="username">
+        Password: <input type="password" name="password" [(ngModel)]="password">
+    
+        <!-- <button (click)=handleLogin() class="btn btn-success">Login</button> -->
+        <button (click)=handleBasicAuthLogin() class="btn btn-success">Login</button>
+    </div>
+</div>
+
+
+
